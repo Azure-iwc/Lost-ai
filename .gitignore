@@ -1,5 +1,55 @@
-node_modules/
-.next/
-dist/
-build/
+# AutoIt related files
+*.au3~*
+*.bak
+*.tmp
+
+# Compiled executables (if any)
+*.exe
+*.bin
+
+# Logs and temp files
 *.log
+*.tmp
+
+# Backup files
+*.backup
+*~
+.Bak
+.bak
+
+# Environment specific
+.env
+.env.local
+*.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build/dist directories
+build/
+dist/
+output/
+
+# Package managers
+node_modules/
+vendor/
+
+# Python specific (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Configuration backups
+config.bak
+settings.backup.next/
